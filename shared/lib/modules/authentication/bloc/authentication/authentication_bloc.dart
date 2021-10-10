@@ -71,7 +71,7 @@ class AuthenticationBloc
       await Future.delayed(Duration(milliseconds: 500)); // a simulated delay
       final data = await authenticationService.loginWithEmailAndPassword(
           event.email, event.password,event.devicetoken);
-      var loginurl = '${apiConstants["auth"]}/LoginApi';
+      var loginurl = '${apiConstants["auth"]}';
       Map<String, String> loginparam = {
         'username': event.email,
         'password': event.password,

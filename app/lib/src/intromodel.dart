@@ -1,5 +1,5 @@
 import 'dart:convert';
-
+import 'package:api_sdk/api_constants.dart';
 import 'package:http/http.dart' as http;
 class intro {
   String success;
@@ -67,7 +67,7 @@ class intro {
 }
 Future<intro> fetchintro() async {
   final response =
-  await http.get('https://visitorpass.theiis.com/api/IntroSlidesAPI');
+  await http.get("${apiConstants["introslides"]}");
 
   if (response.statusCode == 200) {
     // If the call to the server was successful (returns OK), parse the JSON.

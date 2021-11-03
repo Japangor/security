@@ -1,0 +1,19 @@
+const baseURL = 'https://visitorpass.theiis.com/api/';
+const loginURL = 'https://visitorpass.theiis.com/api/LoginAPI';
+const introslides = 'https://visitorpass.theiis.com/api/IntroSlidesAPI';
+const visitortypeapi = 'https://visitorpass.theiis.com/api/VisitorTypesAPI';
+const plantapi = 'https://visitorpass.theiis.com/api/PlantsAPI';
+const persontomeet = 'https://visitorpass.theiis.com/api/VisiteesAPI';
+const gateapi = 'https://visitorpass.theiis.com/api/SecurityGatesAPI';
+const departmentapi = 'https://visitorpass.theiis.com/api/DepartmentsAPI';
+const SecurityProfileApi ="https://visitorpass.theiis.com/api/SecurityProfileApi";
+const addvisitorpostapi ="https://visitorpass.theiis.com/api/VisitorsAPI";
+const noInternetMsg = 'Oops No Internet';
+const visiteeProfileApi ="https://visitorpass.theiis.com/api/VisiteesAPI";
+const visitors = "https://visitorpass.theiis.com/api/VisitorsApi";
+const companyapi = "https://visitorpass.theiis.com/api/CompanyProfileApi";
+const checkoutapi = "https://visitorpass.theiis.com/api/CheckOutApi";
+
+const msg = 'message';
+const status = 'status';
+const int timeoutDuration = 30;
